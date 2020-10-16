@@ -1,4 +1,4 @@
-import java.util Scanner;
+import java.util.Scanner;
 public class TestDemo{
 	public static int fib(int n){
 		int f1=1;
@@ -13,7 +13,7 @@ public class TestDemo{
 	}
 	public static void main(String[] args) {
 		Scanner scan=new Scanner(System.in);
-		int num=scan.nextInt();
+		int n=scan.nextInt();
 		System.out.println(fib(n));
 	}
 }
